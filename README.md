@@ -41,3 +41,17 @@ I won't forget mobile!
 # Now react actual components
 
 Now I'll add the actual react components, I will use styled components, because it helps a lot keeping styles component based, but won't get in the middle of the JSX code.
+
+
+
+
+
+## Caveats
+
+I had to move react app into a `app` folder because github pages doesn't suport a node server, so in order to build the react app I modified the package.json
+
+```js
+"build": "react-scripts build && cp -rf build/ ../",
+```
+
+This way a built version is pushed to the github pages root.
