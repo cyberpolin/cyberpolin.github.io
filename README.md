@@ -23,3 +23,12 @@ First issue install create react app and initial configuration.
 Shoot! I almost forgot, I need to configure github project ( the way the call kanban ). Github have some presets for the lists inside kanban, so I'll take advantage of them, in this way every new issue will be added to de To Do, whenever I close the issue it will go to Done list.
 
 ![Github project configuration](/img/github-kanban-configuration.ong)
+
+Once I have this, now I'll begin making issues...
+
+# Slicing the design
+
+One of the most important ones is properly slicing the design into HTML tags, usually I use os X preview app.
+
+
+![The slicing before coding](/img/design-slice.png "Using colors is easier")
