@@ -3,6 +3,19 @@ import {Flex, Col, Row} from './components/grid'
 
 import styled from 'styled-components'
 
+const ImageContainer = styled(Flex)`
+    flex: 3;
+  @media (max-width: 600px){
+    flex: 8;
+  }
+`
+const Menu = styled(Flex)`
+  flex: 8;
+  @media (max-width: 600px){
+    flex: 3;
+  }
+`
+
 const Wrapper = styled(Row)`
   height: 100vh;
   margin: 2em;
@@ -12,13 +25,13 @@ class App extends Component {
   render () {
     return (
       <Wrapper>
-        <Col flex={5} style={{background: 'red'}}>
-          <Flex flex={3} style={{background: 'green'}}>
+        <Col flex={5}>
+          <ImageContainer>
             image
-          </Flex>
-          <Flex flex={8} style={{background: 'red'}}>
+          </ImageContainer>
+          <Menu >
             menu
-          </Flex>
+          </Menu>
         </Col>
         <Col flex={13} style={{background: 'blue'}} >
           <Flex flex={9} style={{background: 'gray'}} />

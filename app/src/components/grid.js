@@ -8,6 +8,9 @@ const Flex = styled.div`
 const Row = styled.div`
   display: flex;
   flex: ${({flex}) => flex || 1};
+  @media (max-width: 600px){
+    flex-direction: column;
+  }
 `
 const Col = styled.div`
   display: flex;
