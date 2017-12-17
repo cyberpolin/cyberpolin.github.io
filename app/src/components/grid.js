@@ -5,5 +5,14 @@ const Flex = styled.div`
   flex: ${({flex}) => flex || 1};
   flex-direction: ${({column}) => column && 'column'}
 `
+const Row = styled.div`
+  display: flex;
+  flex: ${({flex}) => flex || 1};
+`
+const Col = styled.div`
+  display: flex;
+  flex: ${({flex}) => flex || 1};
+  flex-direction: column;
+`
 
-export {Flex}
+export {Flex, Row, Col}
