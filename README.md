@@ -36,3 +36,8 @@ One of the most important ones is properly slicing the design into HTML tags, us
 I won't forget mobile!
 
 ![#neverforget](/img/mobile-design-slice.png "Don't forget mobile")
+
+
+# Now react actual components
+
+Now I'll add the actual react components, I will use styled components, because it helps a lot keeping styles component based, but won't get in the middle of the JSX code.
