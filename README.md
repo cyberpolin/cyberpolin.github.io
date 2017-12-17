@@ -22,7 +22,7 @@ First issue install create react app and initial configuration.
 
 Shoot! I almost forgot, I need to configure github project ( the way the call kanban ). Github have some presets for the lists inside kanban, so I'll take advantage of them, in this way every new issue will be added to de To Do, whenever I close the issue it will go to Done list.
 
-![Github project configuration](/img/github-kanban-configuration.ong)
+![Github project configuration](/img/github-kanban-configuration.png)
 
 Once I have this, now I'll begin making issues...
 
