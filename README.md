@@ -32,3 +32,7 @@ One of the most important ones is properly slicing the design into HTML tags, us
 
 
 ![The slicing before coding](/img/design-slice.png "Using colors is easier")
+
+I won't forget mobile!
+
+![#neverforget](/img/mobile-design-slice.png "Don't forget mobile")
